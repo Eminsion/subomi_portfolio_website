@@ -347,10 +347,18 @@ form input, form textarea{
 nav .fa-solid{
   display: none;
 }
-@media only screen and (max-width: 600px){
-  #header{
-    background-image: url(./IMG_9282.JPG);
+@media only screen and (max-width: 600px) {
+  #header {
+    background-image: url("Olasubomi-logos/Olasubomi-logos_white2.png");
+    background-size: contain; /* Or 'cover' if you prefer full bleed */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Optional: Make sure the header is tall enough */
+    height: 200px; /* Adjust as needed */
+    width: 100%;
   }
+}
   .header-text{
     margin-top: 100%;
     font-size: 16px;
